@@ -1,0 +1,20 @@
+{
+  "name": "rippit",
+  "interface": {
+    "displayName": "Rippit"
+  },
+  "plugins": [
+    {
+      "name": "rippit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adtribute/rippit-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

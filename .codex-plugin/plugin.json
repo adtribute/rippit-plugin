@@ -1,0 +1,45 @@
+{
+  "name": "rippit",
+  "version": "0.1.0",
+  "description": "Analyze your support conversations and business data from your AI tool. Rippit builds AI columns over your own tickets, calls, and chats to answer why-questions, categorize at scale, and write reports grounded in verbatim customer quotes.",
+  "author": {
+    "name": "Rippit",
+    "email": "help@rippit.com",
+    "url": "https://rippit.com"
+  },
+  "homepage": "https://rippit.com",
+  "repository": "https://github.com/adtribute/rippit-plugin",
+  "license": "MIT",
+  "keywords": [
+    "conversation-analytics",
+    "customer-support",
+    "support-tickets",
+    "voice-of-customer",
+    "customer-insights",
+    "support-qa",
+    "root-cause-analysis"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Rippit",
+    "shortDescription": "Conversation analytics for support tickets, calls, and chats",
+    "longDescription": "Ask why-questions about your own customer conversations. Rippit reads the support tickets, calls, and chats your team already handles and builds the analysis columns a question needs, so it can answer things a dashboard cannot: root cause, theme, intent, resolution quality, and churn risk, judged per conversation and reported with verbatim quotes.",
+    "developerName": "Rippit",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://rippit.com",
+    "privacyPolicyURL": "https://rippit.com/privacy-policy",
+    "termsOfServiceURL": "https://rippit.com/terms-of-service",
+    "defaultPrompt": [
+      "Why did customers cancel last month?",
+      "Build a taxonomy of what people contact us about",
+      "Which support conversations are about to escalate?"
+    ],
+    "brandColor": "#079669",
+    "logo": "./assets/logo.svg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "rippit",
+  "owner": {
+    "name": "Rippit",
+    "email": "help@rippit.com",
+    "url": "https://rippit.com"
+  },
+  "description": "Official Rippit plugin for AI clients. Analyze your customer conversations from your AI tool.",
+  "plugins": [
+    {
+      "name": "rippit",
+      "version": "0.1.0",
+      "description": "Analyze your support conversations and business data from your AI tool. Rippit builds AI columns over your own tickets, calls, and chats to answer why-questions, categorize at scale, and write reports grounded in verbatim customer quotes.",
+      "author": {
+        "name": "Rippit",
+        "email": "help@rippit.com",
+        "url": "https://rippit.com"
+      },
+      "homepage": "https://rippit.com",
+      "repository": "https://github.com/adtribute/rippit-plugin",
+      "license": "MIT",
+      "keywords": [
+        "conversation-analytics",
+        "customer-support",
+        "support-tickets",
+        "voice-of-customer",
+        "customer-insights",
+        "support-qa",
+        "root-cause-analysis"
+      ],
+      "displayName": "Rippit",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
