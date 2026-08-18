@@ -42,6 +42,20 @@ The server is remote and authenticates with OAuth 2.1. On first use your client 
 There are no API keys or tokens to configure, and this repository holds no secrets. A Rippit account is required.
 
 
+## Skills
+
+Ready-made workflows for the analyses teams run most often, mirroring the set published at [docs.rippit.com/skills](https://docs.rippit.com/skills).
+
+| Skill | What it does |
+| --- | --- |
+| `rippit-double-click` | Goes very deep on a particular issue; use this to enhance the depth of your analysis |
+| `rippit-escalation-finder` | Automatically detect brewing escalations and share the details in Slack |
+| `rippit-qa-program-revamp` | Modernize your QA program away from agent performance scoring |
+| `rippit-chatbot-analysis` | Comprehensive analysis of chatbot-handled conversations to flag areas of opportunity |
+| `rippit-support-shoutouts` | Detect excellent support experiences and shout out the folks responsible in Slack |
+| `rippit-aeo-seo-optimization` | Build an SEO/AEO content strategy and draft pieces grounded in customer feedback |
+| `rippit-tool-bakeoff` | Run the same analysis in Rippit and another tool and objectively compare |
+
 ## License
 
 MIT. See [LICENSE](LICENSE). The license covers the contents of this repository, not the Rippit service, which is governed by its own [terms of service](https://rippit.com/terms-of-service) and [privacy policy](https://rippit.com/privacy-policy).
