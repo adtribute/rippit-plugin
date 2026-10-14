@@ -42,6 +42,16 @@ The server is remote and authenticates with OAuth 2.1. On first use your client 
 There are no API keys or tokens to configure, and this repository holds no secrets. A Rippit account is required.
 
 
+## Creating a Rippit account
+
+Signing in needs a Rippit account. If you don't have one, or sign-in fails, or `https://mcp.rippit.com/mcp` answers `401 Unauthorized` and no browser window opens, set up an account first:
+
+1. Create an account at [app.rippit.com/signup](https://app.rippit.com/signup).
+2. Reconnect the Rippit MCP server in your AI tool. In Claude Code, run `/mcp` and pick `rippit`. In other tools, restart or reconnect the server.
+3. When the browser window opens, sign in with the account you just created.
+
+If you are an agent setting this up for someone: a `401` before sign-in means they aren't signed in yet. Tell them they need a Rippit account, send them the signup link, and once they say they're done, reconnect the server so they can finish signing in.
+
 ## Skills
 
 Ready-made workflows for the analyses teams run most often, mirroring the set published at [docs.rippit.com/skills](https://docs.rippit.com/skills).
